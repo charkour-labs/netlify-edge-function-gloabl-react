@@ -2,7 +2,7 @@ Steps to reproduce:
 
 1. Clone repo
 2. Cache deno deps
-3. Run `netlify dev` and open the site
+3. Run `netlify dev`
 4. View the console for the error `ReferenceError: React is not defined`
 
 Expected behavior:
@@ -15,5 +15,5 @@ To see a working version, run `deno run index.tsx` and inspect the console outpu
 
 Versions:
 
-deno: 1.39.1
-netlify-cli: 17.11.0
+- deno: 1.39.1
+- netlify-cli: 17.11.0
